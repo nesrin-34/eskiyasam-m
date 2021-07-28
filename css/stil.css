@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #014040;
+}
+#ana{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#header{
+    width: 100%;
+    margin-top: 15px;
+    height: 70px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    z-index: 999;
+}
+#logo{
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    margin-left: 10px;
+}
+#menu{
+    position: absolute;
+    bottom: 10px;
+    right: 60px;
+}
+#menu ul{
+    float: right;
+}
+#menu ul li{
+    width: 150px;
+    height: 30px;
+    list-style-type: none;
+    float: left;
+    margin-left: 30px;
+    background-color: #F28C0F;
+    line-height: 30px;
+    border-left: #C1C1C1 5px solid;
+}
+#menu ul ul{
+    display: none;
+}
+#menu ul ul li{
+    margin-top: 5px;
+
+}
+#menu li a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: "Comic Sans MS";
+    font-size: 16px;
+}
+#menu>ul>li:hover ul{
+    display: block;
+}
+.temizle{
+    clear: both;
+}
+#icerik{
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    background-color: #02735E;
+}
+#icerik_sol{
+    height: 100%;
+    width: 65%;
+    overflow: hidden;
+}
+#icerik_sag{
+    overflow: hidden;
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.metin_1{
+    width: 90%;
+    height: 350px;
+    margin-bottom: 50px;
+    background-color: #03A678;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.baslik{
+    color: #591202;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.satir{
+    font-family: "Segoe Print";
+    font-size: 14px;
+    color: black;
+    margin: 0px 10px 0px 15px;
+    text-align: center;
+}
+.metin ul{
+    margin-left: 20px;
+}
+.metin ul li{
+    font-family: "Segoe Print";
+}
+.resim{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+}
+.resim img{
+    width: 100%;
+}
+#alt{
+    width: 100%;
+    height: 70px;
+    background-color: #F28C0F;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px ;
+}
+#alt p{
+    color: black;
+}
+#basa_git{
+    width:100px;
+    position:fixed;
+    bottom:20px;
+    right:0px;
+    
+}
+#basa_git a{
+    color:white;
+    
+}
+
+#ic_menu li{
+    list-style-type:none;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 250px;
+    border-bottom: rgba(175, 238, 238, 0.76) solid 2px;
+}
+#ic_menu li a{
+    text-decoration: none;
+    color: rgb(114, 179, 162);
+}
